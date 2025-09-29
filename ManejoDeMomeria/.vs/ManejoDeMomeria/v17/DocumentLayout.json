@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Alumno\\Desktop\\POO\\ManejoDeMomeria\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2F169EA6-32F5-46E9-8E74-8B76C6111CE2}|ManejoDeMomeria.vcxproj|C:\\Users\\Alumno\\Desktop\\POO\\ManejoDeMomeria\\ManejoDeMomeria.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2F169EA6-32F5-46E9-8E74-8B76C6111CE2}|ManejoDeMomeria.vcxproj|solutionrelative:ManejoDeMomeria.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ManejoDeMomeria.cpp",
+              "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\POO\\ManejoDeMomeria\\ManejoDeMomeria.cpp",
+              "RelativeDocumentMoniker": "ManejoDeMomeria.cpp",
+              "ToolTip": "C:\\Users\\Alumno\\Desktop\\POO\\ManejoDeMomeria\\ManejoDeMomeria.cpp",
+              "RelativeToolTip": "ManejoDeMomeria.cpp",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAmwGcAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-29T07:18:52.968Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
