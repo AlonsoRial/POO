@@ -1,0 +1,182 @@
+#include "RepasoLib.h"
+#include <vector>
+#include <algorithm>
+#include <numeric>
+
+namespace repaso {
+
+    // applies f(x) = 2*x to the int param p
+    int f1(int p) {
+        return 2 * p;
+    }
+
+    // returns f(x) = 2+x to the value pointed by param p, changing the initial value of p
+    int f2(int* p) {
+        if (p) {
+            *p = 2 + *p;
+            return *p;
+        }
+        return 0;
+    }
+
+    // applies f(x) = ++x to the value x pointed by param p, leaving the result in the address pointed to by p
+    void f3(int* p) {
+        if (p) {
+            ++(*p);
+        }
+    }
+
+    // returns f(x) = x-1 to the value x pointed by param p, leaving the result in the address pointed to by p
+    int f4(int* p) {
+        if (p) {
+            *p = *p - 1;
+            return *p;
+        }
+        return 0;
+    }
+
+    // returns f(x) = x-1 to the value x pointed by param p, not changing the initial value of p
+    int f5(int* p) {
+        if (p) {
+            return *p - 1;
+        }
+        return 0;
+    }
+
+    // returns a pointer to the param p, dead pointer
+    int* f6(int p) {
+        return &p; // ⚠️ Devuelve puntero a variable local (peligroso)
+    }
+
+    // invokes f5 and applies f(x) = ++x to the value x pointed by param p, undefined value
+    int f7(int p) {
+        int* ptr = &p;
+        int val = f5(ptr);
+        return ++val;
+    }
+
+    // Arrays
+    int f8(int e, int arr[], int len) {
+        for (int i = 0; i < len; ++i) {
+            if (arr[i] == e) return i;
+        }
+        return -1;
+    }
+
+    void f9(int e, int arr[], int len, int e_new) {
+        for (int i = 0; i < len; ++i) {
+            if (arr[i] == e) {
+                arr[i] = e_new;
+                return;
+            }
+        }
+    }
+
+    void f10(int e, int arr[], int len) {
+        int idx = f8(e, arr, len);
+        if (idx != -1) {
+            for (int i = idx; i < len - 1; ++i) {
+                arr[i] = arr[i + 1];
+            }
+            // nota: el último queda duplicado, se necesitaría manejar longitud fuera
+        }
+    }
+
+    void f11(int arr[], int len) {
+        for (int i = 0; i < len / 2; ++i) {
+            std::swap(arr[i], arr[len - i - 1]);
+        }
+    }
+
+    void f12(int arr[], int len) {
+        for (int i = 0; i < len; ++i) {
+            arr[i] = 2 * arr[i];
+        }
+    }
+
+    void f13(int arr[], int len) {
+        for (int i = 0; i < len; ++i) {
+            if (arr[i] % 2 == 0) arr[i]++;
+            else arr[i]--;
+        }
+    }
+
+    int f14(int arr[], int len) {
+        int sum = 0;
+        for (int i = 0; i < len; ++i) sum += arr[i];
+        return sum;
+    }
+
+    float f15(int arr[], int len) {
+        if (len == 0) return 0.0f;
+        return static_cast<float>(f14(arr, len)) / len;
+    }
+
+    // Vectors
+    int f16(int e, std::vector<int>& v) {
+        for (int i = 0; i < (int)v.size(); ++i) {
+            if (v[i] == e) return i;
+        }
+        return -1;
+    }
+
+    void f17_ref(int e, std::vector<int>& v, int e_new) {
+        for (auto& val : v) {
+            if (val == e) {
+                val = e_new;
+                return;
+            }
+        }
+    }
+
+    void f17_val(int e, std::vector<int> v, int e_new) {
+        for (auto& val : v) {
+            if (val == e) {
+                val = e_new;
+                return;
+            }
+        }
+        // no cambia el original porque es por valor
+    }
+
+    void f17_p(int e, std::vector<int>* v, int e_new) {
+        if (!v) return;
+        for (auto& val : *v) {
+            if (val == e) {
+                val = e_new;
+                return;
+            }
+        }
+    }
+
+    void f18(int e, std::vector<int>& v) {
+        v.erase(std::remove(v.begin(), v.end(), e), v.end());
+    }
+
+    void f19(std::vector<int>& v) {
+        std::reverse(v.begin(), v.end());
+    }
+
+    void f20(std::vector<int>& v) {
+        for (auto& val : v) {
+            val = 2 * val;
+        }
+    }
+
+    void f21(std::vector<int>& v) {
+        for (auto& val : v) {
+            if (val % 2 == 0) val++;
+            else val--;
+        }
+    }
+
+    int f22(std::vector<int>& v) {
+        return std::accumulate(v.begin(), v.end(), 0);
+    }
+
+    float f23(std::vector<int>& v) {
+        if (v.empty()) return 0.0f;
+        return static_cast<float>(f22(v)) / v.size();
+    }
+
+}
