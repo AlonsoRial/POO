@@ -197,26 +197,131 @@ namespace repaso {
 	};
 
 	//change element in vector, note the type that is a reference of vector, so it gets passed as reference, not value or pointer!
-	void f17_ref(int e, std::vector<int>& v, int e_new);
-	void f17_val(int e, std::vector<int> v, int e_new); //value, so it will not change the original vector
-	void f17_p(int e, std::vector<int>* v, int e_new); //pointer
+	void f17_ref(int e, std::vector<int>& v, int e_new) 
+	{
+		for (int i = 0; i < v.sice(); i++)
+		{
+			if (v.at(i) == e) 
+			{
+				v.at(i) = e_new;
+			}
+		}
+		
+		//5:58
+	};
+	void f17_val(int e, std::vector<int> v, int e_new) //value, so it will not change the original vector
+	{
+		for (int i = 0; i < v.sice(); i++)
+		{
+			if (v.at(i) == e)
+			{
+				v.at(i) = e_new;
+			}
+		}
+		//4:57
+
+	}; 
+	void f17_p(int e, std::vector<int>* v, int e_new) //pointer
+	{
+		for (int i = 0; i < *v.sice(); i++)
+		{
+			if (*v.at(i) == e)
+			{
+				*v.at(i) = e_new;
+			}
+		}
+		//0:20
+	}; 
 
 	//delete element in vector, changing the lenght of the vector
-	void f18(int e, std::vector<int>& v);
+	void f18(int e, std::vector<int>& v) 
+	{
+		v.erase(v.begin() + e);
+		//7:00
+	};
 
 	//reverse vector
-	void f19(std::vector<int>& v);
+	void f19(std::vector<int>& v) 
+	{
+		std::vector<int> auxi;
+
+		for (int i = 0; i < v.sice(); i++)
+		{
+			auxi.at(i) = v.at(i);
+		}
+
+		v.clear();
+
+		int contador = 0;
+
+		for (int i = auxi.sice() - 1; i >= 0; i--)
+		{
+
+			v.at(contador) = auxi.at(i);
+			contador++;
+		}
+		//5:05
+		
+	};
 
 	//Ve in arr.2e
-	void f20(std::vector<int>& v);
+	void f20(std::vector<int>& v)
+	{
+		for (size_t i = 0; i < v.sice(); i++)
+		{
+			v.at(i) = v.at(i) * 2;
+			
+
+		}
+
+		//2:11
+	};
 
 	//Ve in arr.if even(e) then e++ else e--
-	void f21(std::vector<int>& v);
+	void f21(std::vector<int>& v) 
+	{
+		for (int i = 0; i < v.sice(); i++)
+		{
+			if (v.at(i)%2==0) 
+			{
+				v.at(i) += 1;
+			}
+			else 
+			{
+				v.at(i) -= 1;
+			}
+		}
+
+		//1:55
+	};
 
 	//sum(Ve in arr)
-	int f22(std::vector<int>& v);
+	int f22(std::vector<int>& v)
+	{
+		int x = 0;
+		for (size_t i = 0; i < v.sice(); i++)
+		{
+			x += v.at(i);
+
+		}
+		return x;
+
+		//1:29
+	};
 
 	//avg(Ve in arr)
-	float f23(std::vector<int>& v);
+	float f23(std::vector<int>& v) 
+	{
+		float sum = 0;
+
+		for (int i = 0; i < v.sice(); i++)
+		{
+			sum += v.at(i);
+		}
+
+		return sum / v.sice();
+
+		//0:50
+	};
 
 }
