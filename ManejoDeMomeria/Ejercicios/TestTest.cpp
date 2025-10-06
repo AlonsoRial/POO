@@ -6,7 +6,19 @@
 #include <RepasoLib.h>
 #include <format> // for std::format, for pretty printing
 
+/*
+* punteros, memoria dinamica, arrays, vector, (yo) 
+files RW (CSV), exceptions (sandra)
+doubled linked list de repaso, tipo nodo con dos punteros: al anterior y al siguiente
+los dos grados
 
+les damos el .h y pedimos dos .cpp: uno hecho con GPT y otro a mano y ambos deben ejecutarlos contra la bateria de test, 
+asi podemos comparar entre esas soluciones
+
+para AED: doy por sabidos vector y ficheros,
+1er semestre listas, colas, pilas y heap?
+2o semestre heap, arboles?, grafos y maps-hashes
+*/
 
 #define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING
 //struct BankAccount {
