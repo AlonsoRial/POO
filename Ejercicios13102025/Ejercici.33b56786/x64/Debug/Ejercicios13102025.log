@@ -1,0 +1,6 @@
+﻿  Ejercicios13102025.cpp
+  Ejerciciosh13102025.cpp
+  Generando código...
+Ejerciciosh13102025.obj : error LNK2005: ya se definió "public: __cdecl Circulo_ej::~Circulo_ej(void)" (??1Circulo_ej@@QEAA@XZ) en Ejercicios13102025.obj
+Ejerciciosh13102025.obj : error LNK2005: ya se definió "public: __cdecl Moneda_ej::~Moneda_ej(void)" (??1Moneda_ej@@QEAA@XZ) en Ejercicios13102025.obj
+C:\Users\Alumno\Desktop\Nueva carpeta\Ejercicios13102025\x64\Debug\Ejercicios13102025.exe : fatal error LNK1169: se encontraron uno o más símbolos definidos simultáneamente
