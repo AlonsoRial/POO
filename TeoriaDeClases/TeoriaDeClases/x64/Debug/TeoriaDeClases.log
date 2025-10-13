@@ -1,0 +1,5 @@
+﻿  PruebaClase.cpp
+C:\Users\Alumno\Desktop\POO\TeoriaDeClases\PruebaClase.cpp(15,9): warning C4244: 'return': conversión de 'double' a 'int'; posible pérdida de datos
+  TeoriaDeClases.cpp
+  Generando código...
+  TeoriaDeClases.vcxproj -> C:\Users\Alumno\Desktop\POO\TeoriaDeClases\x64\Debug\TeoriaDeClases.exe

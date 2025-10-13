@@ -1,0 +1,4 @@
+Defina una clase y declare sus métodos para el siguiente objeto: una nave de un videojuego. Se sabe que 
+la nave se puede situar en unas coordenadas (x,y) de la pantalla y que tiene un máximo de tres vidas. 
+Además, la nave puede moverse en la pantalla (subir, bajar, ir a la derecha e ir a la izquierda). También 
+puede ser destruida, cada vez que se destruye pierde una vida
