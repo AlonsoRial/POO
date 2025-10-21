@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "201025EjerClaseYSobrecarga", "201025EjerClaseYSobrecarga.vcxproj", "{F836B201-65A3-4E15-8A5F-0B9A01E0C883}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F836B201-65A3-4E15-8A5F-0B9A01E0C883}.Debug|x64.ActiveCfg = Debug|x64
+		{F836B201-65A3-4E15-8A5F-0B9A01E0C883}.Debug|x64.Build.0 = Debug|x64
+		{F836B201-65A3-4E15-8A5F-0B9A01E0C883}.Debug|x86.ActiveCfg = Debug|Win32
+		{F836B201-65A3-4E15-8A5F-0B9A01E0C883}.Debug|x86.Build.0 = Debug|Win32
+		{F836B201-65A3-4E15-8A5F-0B9A01E0C883}.Release|x64.ActiveCfg = Release|x64
+		{F836B201-65A3-4E15-8A5F-0B9A01E0C883}.Release|x64.Build.0 = Release|x64
+		{F836B201-65A3-4E15-8A5F-0B9A01E0C883}.Release|x86.ActiveCfg = Release|Win32
+		{F836B201-65A3-4E15-8A5F-0B9A01E0C883}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55AF4A3A-68DE-466A-8EE8-B43FE466F5DE}
+	EndGlobalSection
+EndGlobal
