@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Alumno\\Desktop\\POO\\EjercicioBanco\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A48FD2AE-6F75-4458-A3BE-1CAD4F01009E}|EjercicioBanco.vcxproj|C:\\Users\\Alumno\\Desktop\\POO\\EjercicioBanco\\Cuenta.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A48FD2AE-6F75-4458-A3BE-1CAD4F01009E}|EjercicioBanco.vcxproj|solutionrelative:Cuenta.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A48FD2AE-6F75-4458-A3BE-1CAD4F01009E}|EjercicioBanco.vcxproj|C:\\Users\\Alumno\\Desktop\\POO\\EjercicioBanco\\Cuenta.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A48FD2AE-6F75-4458-A3BE-1CAD4F01009E}|EjercicioBanco.vcxproj|solutionrelative:Cuenta.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A48FD2AE-6F75-4458-A3BE-1CAD4F01009E}|EjercicioBanco.vcxproj|C:\\Users\\Alumno\\Desktop\\POO\\EjercicioBanco\\EjercicioBanco.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A48FD2AE-6F75-4458-A3BE-1CAD4F01009E}|EjercicioBanco.vcxproj|solutionrelative:EjercicioBanco.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A48FD2AE-6F75-4458-A3BE-1CAD4F01009E}|EjercicioBanco.vcxproj|C:\\Users\\Alumno\\Desktop\\POO\\EjercicioBanco\\Cliente.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A48FD2AE-6F75-4458-A3BE-1CAD4F01009E}|EjercicioBanco.vcxproj|solutionrelative:Cliente.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A48FD2AE-6F75-4458-A3BE-1CAD4F01009E}|EjercicioBanco.vcxproj|C:\\Users\\Alumno\\Desktop\\POO\\EjercicioBanco\\Cuenta.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A48FD2AE-6F75-4458-A3BE-1CAD4F01009E}|EjercicioBanco.vcxproj|solutionrelative:Cuenta.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A48FD2AE-6F75-4458-A3BE-1CAD4F01009E}|EjercicioBanco.vcxproj|C:\\Users\\Alumno\\Desktop\\POO\\EjercicioBanco\\Cliente.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A48FD2AE-6F75-4458-A3BE-1CAD4F01009E}|EjercicioBanco.vcxproj|C:\\Users\\Alumno\\Desktop\\POO\\EjercicioBanco\\Movimiento.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A48FD2AE-6F75-4458-A3BE-1CAD4F01009E}|EjercicioBanco.vcxproj|solutionrelative:Movimiento.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A48FD2AE-6F75-4458-A3BE-1CAD4F01009E}|EjercicioBanco.vcxproj|C:\\Users\\Alumno\\Desktop\\POO\\EjercicioBanco\\EjercicioBanco.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A48FD2AE-6F75-4458-A3BE-1CAD4F01009E}|EjercicioBanco.vcxproj|solutionrelative:EjercicioBanco.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Movimiento.cpp",
               "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\POO\\EjercicioBanco\\Movimiento.cpp",
               "RelativeDocumentMoniker": "Movimiento.cpp",
@@ -50,12 +50,11 @@
               "RelativeToolTip": "Movimiento.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAABiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-03T08:54:54.586Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T08:54:54.586Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Movimiento.h",
               "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\POO\\EjercicioBanco\\Movimiento.h",
               "RelativeDocumentMoniker": "Movimiento.h",
@@ -63,12 +62,11 @@
               "RelativeToolTip": "Movimiento.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-03T08:24:44.711Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T08:24:44.711Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Cliente.cpp",
               "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\POO\\EjercicioBanco\\Cliente.cpp",
               "RelativeDocumentMoniker": "Cliente.cpp",
@@ -76,8 +74,7 @@
               "RelativeToolTip": "Cliente.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-03T08:41:10.518Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T08:41:10.518Z"
             },
             {
               "$type": "Document",
@@ -94,20 +91,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Cuenta.cpp",
               "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\POO\\EjercicioBanco\\Cuenta.cpp",
               "RelativeDocumentMoniker": "Cuenta.cpp",
               "ToolTip": "C:\\Users\\Alumno\\Desktop\\POO\\EjercicioBanco\\Cuenta.cpp",
               "RelativeToolTip": "Cuenta.cpp",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAuwAwAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAuwAkAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-11-03T08:16:30.291Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Cuenta.h",
               "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\POO\\EjercicioBanco\\Cuenta.h",
               "RelativeDocumentMoniker": "Cuenta.h",
@@ -120,13 +117,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "EjercicioBanco.cpp",
               "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\POO\\EjercicioBanco\\EjercicioBanco.cpp",
               "RelativeDocumentMoniker": "EjercicioBanco.cpp",
               "ToolTip": "C:\\Users\\Alumno\\Desktop\\POO\\EjercicioBanco\\EjercicioBanco.cpp",
               "RelativeToolTip": "EjercicioBanco.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-11-03T08:15:49.588Z",
               "EditorCaption": ""
