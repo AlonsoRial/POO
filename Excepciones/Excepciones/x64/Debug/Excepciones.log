@@ -1,0 +1,4 @@
+﻿  Excepciones.cpp
+C:\Users\Alumno\Desktop\Excepciones\Excepciones.cpp(23,13): warning C4101: 'e': variable local sin referencia
+C:\Users\Alumno\Desktop\Excepciones\Excepciones.cpp(34,25): warning C4101: 'e': variable local sin referencia
+  Excepciones.vcxproj -> C:\Users\Alumno\Desktop\Excepciones\x64\Debug\Excepciones.exe

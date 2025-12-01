@@ -1,0 +1,11 @@
+﻿  EjercicioPlantilla.cpp
+C:\Users\Alumno\Desktop\EjercicioPlantilla\EjercicioPlantilla.cpp(12,6): error C2100: no se puede desreferenciar un operando de tipo 'int'
+      C:\Users\Alumno\Desktop\EjercicioPlantilla\EjercicioPlantilla.cpp(12,6):
+      el contexto de creación de instancias de la plantilla (el más antiguo primero) es
+          C:\Users\Alumno\Desktop\EjercicioPlantilla\EjercicioPlantilla.cpp(33,2):
+          Vea la referencia a la creación de una instancia de la función plantilla "void intercambio<int>(T &,T &)" que se está compilando
+          with
+          [
+              T=int
+          ]
+  
